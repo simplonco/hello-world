@@ -13,9 +13,10 @@ HelloWorld.prototype.hello = function(input) {
   } else {
     return 'Hello, ' + input + '!';
   }
+module.exports = HelloWorld;
 };
 
 
-
+module.exports = HelloWorld;
 var test = new HelloWorld();
 console.log(test.hello("Solomon"));
