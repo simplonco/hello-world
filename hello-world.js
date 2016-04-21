@@ -7,15 +7,11 @@
 var HelloWorld = function() {};
 
 HelloWorld.prototype.hello = function(input) {
-
   if (typeof(input) === 'undefined') {
     return "Hello, World!";
   } else {
     return 'Hello, ' + input + '!';
   }
-  module.exports = HelloWorld;
 };
 
-var test = new HelloWorld();
-console.log(test.hello("Solomon"));
-
+module.exports = HelloWorld;
