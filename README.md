@@ -22,10 +22,10 @@ It will also provide you with a safety net to explore other solutions without br
 2. Write some code to fix the test you picked.
 3. Re-run the tests to confirm the test is now passing.
 4. Repeat from step 1.
-5. Submit your solution
+5. Submit your solution.
 
 ## Instructions
 
 Submissions are encouraged to be general, within reason. Having said that, it's also important not to over-engineer a solution.
 
-It's important to remember that the goal is to make code as expressive and readable as we can. However, solutions to the hello-world exercise will be not be reviewed by a person, but by Travis CI, who will offer an encouraging word.
+It's important to remember that the goal is to make code as expressive and readable as we can. However, solutions to the hello-world exercise will be not be reviewed by a person, but by the robot, who will offer an encouraging word.
