@@ -10,7 +10,7 @@ var HelloWorld = function() {};
 
 HelloWorld.prototype.hello = function(input) {
 //
-console.log("Hello World");
+return "Hello World";
 //
 };
 
