@@ -9,7 +9,7 @@
 var HelloWorld = function() {};
 
 HelloWorld.prototype.hello = function(input) {
-  console.log("hello world");
+    return "hello world";
 };
 
 module.exports = HelloWorld;
