@@ -9,6 +9,7 @@
 var HelloWorld = function() {};
 
 HelloWorld.prototype.hello = function(input) {
+  // Here is the solution:
   return "Hello, World!";
 };
 
