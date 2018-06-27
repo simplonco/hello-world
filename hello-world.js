@@ -9,9 +9,12 @@
 var HelloWorld = function() {};
 
 HelloWorld.prototype.hello = function(input) {
-//
-// YOUR CODE GOES HERE
-//
+  describe('Hello World', function() {
+    var helloWorld = new HelloWorld();
+
+    it('says hello world with no name', function() {
+      expect(helloWorld.hello('')).toEqual('Hello, World!');
+});
 };
 
 module.exports = HelloWorld;
