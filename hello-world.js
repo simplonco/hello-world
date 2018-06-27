@@ -8,10 +8,8 @@
 
 var HelloWorld = function() {};
 
-HelloWorld.prototype.hello = function(input) {
-//
-// YOUR CODE GOES HERE
-//
+HelloWorld.prototype.hello = function(name) {
+  return 'Hello, World!'
 };
 
 module.exports = HelloWorld;
